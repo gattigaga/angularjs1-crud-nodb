@@ -1,0 +1,30 @@
+.about {
+	margin-top: 32px;
+	letter-spacing: 1px;
+}
+
+/*
+////////////////////////////////////////////////
+///
+/// ANGULARJS ANIMATION
+///
+////////////////////////////////////////////////
+*/
+
+.animate-data.ng-move,
+.animate-data.ng-enter,
+.animate-data.ng-leave {
+	transition: all linear 0.2s;
+}
+
+.animate-data.ng-leave.ng-leave-active,
+.animate-data.ng-move,
+.animate-data.ng-enter {
+	opacity: 0;
+}
+
+.animate-data.ng-leave,
+.animate-data.ng-move.ng-move-active,
+.animate-data.ng-enter.ng-enter-active {
+	opacity: 1;
+}
